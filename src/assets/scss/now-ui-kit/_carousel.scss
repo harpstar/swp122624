@@ -1,0 +1,18 @@
+// display flex was causing errors
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active{
+    display: block;
+}
+
+.carousel{
+    .carousel-inner{
+        box-shadow: $box-shadow-raised;
+        border-radius: $border-radius-small;
+    }
+
+    .card {
+        margin: 60px auto;
+        display: block;
+    }
+}
