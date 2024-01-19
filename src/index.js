@@ -40,6 +40,7 @@ import CleanWaterPathway from "./pages/pathways/CleanWaterPathway";
 import EnvironmentalEngineeringPathway from "./pages/pathways/EnvironmentalEngineeringPathway";
 import GreenBuildingPathway from "./pages/pathways/GreenBuildingPathway";
 import MarineBiologyPathway from "./pages/pathways/MarineBiologyPathway";
+import './assets/css/custom.css';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

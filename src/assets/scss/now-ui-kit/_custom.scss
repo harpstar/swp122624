@@ -137,7 +137,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: calc(90% / 3);
+    width: calc(90% / 2);
+    background-color: rgba(44,	168,	255, .5);
 
     &--body {
       display: flex;
@@ -168,7 +169,10 @@
   }
 
   &__images-container {
-    margin-top: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    max-height: 500px;
+    object-fit: cover;
   }
 
   &__levels-container {
@@ -193,15 +197,18 @@
 
   &__level-title {
     &--entry {
+      color: white;
       background-color: #5BCAFF;
     }
 
     &--mid {
+      color: white;
       background-color: #FF9500;
     }
 
     &--advanced {
-      background-color: orangered;
+      color: white;
+      background-color: green;
     }
   }
 }

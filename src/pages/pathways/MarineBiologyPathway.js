@@ -3,14 +3,33 @@ import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
 import {Col, Collapse, Row} from "reactstrap";
 
 const MarineBiologyPathway = () => {
-  const [isBuildingMaintenanceWorkerOpen, setIsBuildingMaintenanceWorkerOpen] = React.useState(false);
-  const [isBuildingOperatorOpen, setIsBuildingOperatorOpen] = React.useState(false);
-  const [isFacilitiesManagerOpen, setIsFacilitiesManagerOpen] = React.useState(false);
-  const [isBuildingEngineerOpen, setIsBuildingEngineerOpen] = React.useState(false);
+  const [isBuildingMaintenanceWorkerOpen, setIsBuildingMaintenanceWorkerOpen] = React.useState(true);
+  const [isBuildingOperatorOpen, setIsBuildingOperatorOpen] = React.useState(true);
+  const [isFacilitiesManagerOpen, setIsFacilitiesManagerOpen] = React.useState(true);
+  const [isBuildingEngineerOpen, setIsBuildingEngineerOpen] = React.useState(true);
   return (
     <>
-      <ExamplesNavbar coloredNav />
+      <ExamplesNavbar coloredNav/>
       <h2 className='pathway-page__main-title'>Sustainable Career Pathway - Marine Biology</h2>
+
+      <div className='pathway-page__images-container'>
+        <Col className="ml-auto" md="10">
+          <Row className="collections justify-content-center">
+              <img
+                alt="..."
+                className="img-raised"
+                src={require("assets/img/pathways/marine-biology/3.jpeg")}
+                style={{height: '400px'}}
+              ></img>
+              <img
+                alt="..."
+                className="img-raised"
+                src={require("assets/img/pathways/marine-biology/2.jpg")}
+                style={{height: '400px'}}
+              ></img>
+          </Row>
+        </Col>
+      </div>
 
       <main className="pathway-page__levels-container">
         {/* ENTRY LEVEL */}
@@ -20,14 +39,18 @@ const MarineBiologyPathway = () => {
           </h3>
 
           {/* 1 */}
-          <h4 style={{cursor: 'pointer'}} onClick={() => setIsBuildingMaintenanceWorkerOpen(prev => !prev)}>Lab Assistant</h4>
+          <h4 style={{cursor: 'pointer'}} onClick={() => setIsBuildingMaintenanceWorkerOpen(prev => !prev)}>Lab
+            Assistant</h4>
 
           <Collapse isOpen={isBuildingMaintenanceWorkerOpen}>
-            <p>Apply engineering theory and principals to assist professional engineers with support, diagnostics, and maintenance throughout a project within Clean Energy</p>
+            <p>Apply engineering theory and principals to assist professional engineers with support, diagnostics, and
+              maintenance throughout a project within Clean Energy</p>
 
             <h4>Tasks/Responsibilities:</h4>
             <ul>
-              <li>Under supervision, perform standard repetitive technical laboratory duties such as DNA extraction and PCR tests</li>
+              <li>Under supervision, perform standard repetitive technical laboratory duties such as DNA extraction and
+                PCR tests
+              </li>
               <li>Maintain laboratory culture copepods</li>
               <li>Perform general lab maintenance and lab safety protocols</li>
               <li>Occasional training of undergraduate students and volunteers as needed</li>
@@ -52,7 +75,6 @@ const MarineBiologyPathway = () => {
         </div>
 
 
-
         {/* MID LEVEL */}
 
         <div className="pathway-page__level-container">
@@ -64,7 +86,8 @@ const MarineBiologyPathway = () => {
           <h4 onClick={() => setIsBuildingOperatorOpen(prev => !prev)}>Marine Biologist (Protected Species)</h4>
 
           <Collapse isOpen={isBuildingOperatorOpen}>
-            <p>Serve as the marine protected species subject matter expert for impact assessment, permitting and monitoring related to offshore wind projects.</p>
+            <p>Serve as the marine protected species subject matter expert for impact assessment, permitting and
+              monitoring related to offshore wind projects.</p>
 
             <h4>Tasks/Responsibilities:</h4>
             <ul>
@@ -104,12 +127,15 @@ const MarineBiologyPathway = () => {
           <h4 onClick={() => setIsFacilitiesManagerOpen(prev => !prev)}>Senior Marine Mammal Scientist</h4>
 
           <Collapse isOpen={isFacilitiesManagerOpen}>
-            <p>Serve as lead marine mammal expert and assist in the integration of projects that could include offshore renewables, coastal resilience, oil and gas, ports and shipping and marine science research projects.</p>
+            <p>Serve as lead marine mammal expert and assist in the integration of projects that could include offshore
+              renewables, coastal resilience, oil and gas, ports and shipping and marine science research projects.</p>
 
             <h4>Tasks/Responsibilities:</h4>
             <ul>
               <li>Conducting and planning field work, data analysis and review of projects</li>
-              <li>Work on proposal writing and reviewing, preparing and delivering presentations to partners for business development</li>
+              <li>Work on proposal writing and reviewing, preparing and delivering presentations to partners for
+                business development
+              </li>
               <li>Manage reports relating to:
                 <ul>
                   <li>Assessment of underwater noise</li>
@@ -155,7 +181,9 @@ const MarineBiologyPathway = () => {
                   <li>Ocean Biology</li>
                 </ul>
               </li>
-              <li>Work on proposal writing and reviewing, preparing and delivering presentations to partners for business development</li>
+              <li>Work on proposal writing and reviewing, preparing and delivering presentations to partners for
+                business development
+              </li>
             </ul>
 
             <h4>Education:</h4>
@@ -175,27 +203,6 @@ const MarineBiologyPathway = () => {
           </Collapse>
         </div>
       </main>
-
-      <div className='pathway-page__images-container'>
-        <Col className="ml-auto mr-auto" md="10">
-          <Row className="collections">
-            <Col md="12">
-              <img
-                alt="..."
-                className="img-raised"
-                src={require("assets/img/pathways/marine-biology/3.jpeg")}
-                style={{maxWidth: '50%' }}
-              ></img>
-              <img
-                alt="..."
-                className="img-raised"
-                src={require("assets/img/pathways/marine-biology/2.jpg")}
-                style={{maxWidth: '50%' }}
-              ></img>
-            </Col>
-          </Row>
-        </Col>
-      </div>
     </>
   );
 }

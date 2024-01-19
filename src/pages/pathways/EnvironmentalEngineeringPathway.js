@@ -3,15 +3,34 @@ import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
 import {Col, Collapse, Row} from "reactstrap";
 
 const EnvironmentalEngineeringPathway = () => {
-  const [isBuildingMaintenanceWorkerOpen, setIsBuildingMaintenanceWorkerOpen] = React.useState(false);
-  const [isBuildingMaintenanceTechnicianOpen, setIsBuildingMaintenanceTechnicianOpen] = React.useState(false);
-  const [isBuildingOperatorOpen, setIsBuildingOperatorOpen] = React.useState(false);
-  const [isFacilitiesManagerOpen, setIsFacilitiesManagerOpen] = React.useState(false);
-  const [isBuildingEngineerOpen, setIsBuildingEngineerOpen] = React.useState(false);
+  const [isBuildingMaintenanceWorkerOpen, setIsBuildingMaintenanceWorkerOpen] = React.useState(true);
+  const [isBuildingMaintenanceTechnicianOpen, setIsBuildingMaintenanceTechnicianOpen] = React.useState(true);
+  const [isBuildingOperatorOpen, setIsBuildingOperatorOpen] = React.useState(true);
+  const [isFacilitiesManagerOpen, setIsFacilitiesManagerOpen] = React.useState(true);
+  const [isBuildingEngineerOpen, setIsBuildingEngineerOpen] = React.useState(true);
   return (
     <>
-      <ExamplesNavbar coloredNav />
+      <ExamplesNavbar coloredNav/>
       <h2 className='pathway-page__main-title'>Sustainable Career Pathway - Environmental Engineering</h2>
+
+      <div className='pathway-page__images-container'>
+        <Col className="ml-auto mr-auto" md="10">
+          <Row className="collections justify-content-center">
+              <img
+                alt="..."
+                className="img-raised"
+                src={require("assets/img/pathways/environmental-engineering/2.jpg")}
+                style={{height: '400px'}}
+              ></img>
+              <img
+                alt="..."
+                className="img-raised"
+                src={require("assets/img/pathways/environmental-engineering/4.jpeg")}
+                style={{height: '400px'}}
+              ></img>
+          </Row>
+        </Col>
+      </div>
 
       <main className="pathway-page__levels-container">
         {/* ENTRY LEVEL */}
@@ -21,10 +40,12 @@ const EnvironmentalEngineeringPathway = () => {
           </h3>
 
           {/* 1 */}
-          <h4 style={{cursor: 'pointer'}} onClick={() => setIsBuildingMaintenanceWorkerOpen(prev => !prev)}>Engineering Technician</h4>
+          <h4 style={{cursor: 'pointer'}} onClick={() => setIsBuildingMaintenanceWorkerOpen(prev => !prev)}>Engineering
+            Technician</h4>
 
           <Collapse isOpen={isBuildingMaintenanceWorkerOpen}>
-            <p>Apply engineering theory and principals to assist professional engineers with support, diagnostics, and maintenance throughout a project within Clean Energy.</p>
+            <p>Apply engineering theory and principals to assist professional engineers with support, diagnostics, and
+              maintenance throughout a project within Clean Energy.</p>
 
             <h4>Tasks/Responsibilities:</h4>
             <ul>
@@ -55,15 +76,22 @@ const EnvironmentalEngineeringPathway = () => {
 
           {/* 2 */}
 
-          <h4 style={{cursor: 'pointer'}} onClick={() => setIsBuildingMaintenanceTechnicianOpen(prev => !prev)}>Entry-Level Engineer <div>(Industrial Health &amp; Safety)</div></h4>
+          <h4 style={{cursor: 'pointer'}}
+              onClick={() => setIsBuildingMaintenanceTechnicianOpen(prev => !prev)}>Entry-Level
+            Engineer <div>(Industrial Health &amp; Safety)</div></h4>
 
           <Collapse isOpen={isBuildingMaintenanceTechnicianOpen}>
-            <p>Plan, implement, and coordinate safety programs, requiring application of engineering principles and technology, to prevent or correct unsafe environmental working conditions.</p>
+            <p>Plan, implement, and coordinate safety programs, requiring application of engineering principles and
+              technology, to prevent or correct unsafe environmental working conditions.</p>
 
             <h4>Tasks/Responsibilities:</h4>
             <ul>
-              <li>Inspect facilities, machinery, and safety equipment to identify potential hazards and ensure safety regulation compliance</li>
-              <li>Conduct worker training in with respect to safety laws and regulations, hazardous condition monitoring, and use of safety equipment</li>
+              <li>Inspect facilities, machinery, and safety equipment to identify potential hazards and ensure safety
+                regulation compliance
+              </li>
+              <li>Conduct worker training in with respect to safety laws and regulations, hazardous condition
+                monitoring, and use of safety equipment
+              </li>
               <li>Maintain knowledge of current policies, regulations, and industrial processes</li>
             </ul>
 
@@ -85,7 +113,6 @@ const EnvironmentalEngineeringPathway = () => {
         </div>
 
 
-
         {/* MID LEVEL */}
 
         <div className="pathway-page__level-container">
@@ -97,7 +124,9 @@ const EnvironmentalEngineeringPathway = () => {
           <h4 onClick={() => setIsBuildingOperatorOpen(prev => !prev)}>Engineering Manager</h4>
 
           <Collapse isOpen={isBuildingOperatorOpen}>
-            <p>Responsible for overseeing, managing, planning, directing, and coordinating activities and projects for several engineering project management teams. They are involved in managing clean energy product design, development, production, and testing.</p>
+            <p>Responsible for overseeing, managing, planning, directing, and coordinating activities and projects for
+              several engineering project management teams. They are involved in managing clean energy product design,
+              development, production, and testing.</p>
 
             <h4>Tasks/Responsibilities:</h4>
             <ul>
@@ -136,7 +165,8 @@ const EnvironmentalEngineeringPathway = () => {
           <h4 onClick={() => setIsFacilitiesManagerOpen(prev => !prev)}>Engineering Director</h4>
 
           <Collapse isOpen={isFacilitiesManagerOpen}>
-            <p>Head of the engineering department who is responsible for overseeing, planning and directing all engineering managers in addition to the entire department.</p>
+            <p>Head of the engineering department who is responsible for overseeing, planning and directing all
+              engineering managers in addition to the entire department.</p>
 
             <h4>Tasks/Responsibilities:</h4>
             <ul>
@@ -164,32 +194,12 @@ const EnvironmentalEngineeringPathway = () => {
 
             <h4>Certificates/Alternative Education:</h4>
             <ul>
-              <li><a href="https://www.bpelsg.ca.gov/applicants/eit_lsitapp.shtml">Engineer in Training Certification</a></li>
+              <li><a href="https://www.bpelsg.ca.gov/applicants/eit_lsitapp.shtml">Engineer in Training
+                Certification</a></li>
             </ul>
           </Collapse>
         </div>
       </main>
-
-      <div className='pathway-page__images-container'>
-        <Col className="ml-auto mr-auto" md="10">
-          <Row className="collections">
-            <Col md="12">
-              <img
-                alt="..."
-                className="img-raised"
-                src={require("assets/img/pathways/environmental-engineering/2.jpg")}
-                style={{ maxWidth: '50%' }}
-              ></img>
-              <img
-                alt="..."
-                className="img-raised"
-                src={require("assets/img/pathways/environmental-engineering/4.jpeg")}
-                style={{ maxWidth: '50%' }}
-              ></img>
-            </Col>
-          </Row>
-        </Col>
-      </div>
     </>
   );
 }
