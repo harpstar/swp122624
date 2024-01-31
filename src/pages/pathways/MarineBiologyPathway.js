@@ -13,19 +13,17 @@ const MarineBiologyPathway = () => {
       <h2 className='pathway-page__main-title'>Sustainable Career Pathway - Marine Biology</h2>
 
       <div className='pathway-page__images-container'>
-        <Col className="ml-auto" md="10">
-          <Row className="collections justify-content-center">
+        <Col className="ml-auto mr-auto" md="10">
+          <Row className="collections justify-content-center pathway-page__images-row">
               <img
                 alt="..."
-                className="img-raised"
+                className="img-raised pathway-page__image"
                 src={require("assets/img/pathways/marine-biology/3.jpeg")}
-                style={{height: '400px'}}
               ></img>
               <img
                 alt="..."
-                className="img-raised"
+                className="img-raised pathway-page__image"
                 src={require("assets/img/pathways/marine-biology/2.jpg")}
-                style={{height: '400px'}}
               ></img>
           </Row>
         </Col>

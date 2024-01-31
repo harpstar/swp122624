@@ -25,18 +25,18 @@ function LandingPageHeader() {
   });
   return (
     <>
-      <div className="page-header page-header-small">
+      <div className="page-header page-header-large">
         <div className="home-page__header-image-container">
           <div
             className="page-header-image"
             style={{
               backgroundImage: "url(" + require("assets/img/home-page/home1.jpg") + ")",
-              width: '50%'
+              width: '100%'
             }}
             filter-color="black"
             ref={pageHeader}
           />
-          <div
+          {/* <div
             className="page-header-image"
             style={{
               backgroundImage: "url(" + require("assets/img/home-page/home2.jpg") + ")",
@@ -45,7 +45,7 @@ function LandingPageHeader() {
             }}
             filter-color="black"
             ref={pageHeader}
-          />
+          /> */}
         </div>
         <div className="content-center home-page__header-text-container">
           <h1 className="title">Sustainable Career Pathways</h1>

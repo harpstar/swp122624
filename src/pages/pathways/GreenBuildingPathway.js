@@ -27,15 +27,15 @@ const GreenBuildingPathway = () => {
 
       <div className='pathway-page__images-container'>
         <Col className="ml-auto mr-auto" md="10">
-          <Row className="collections justify-content-center">
+          <Row className="collections justify-content-center pathway-page__images-row">
               <img
                 alt="..."
-                className="img-raised"
+                className="img-raised pathway-page__image"
                 src={require("assets/img/pathways/green-building/1.jpeg")}
               ></img>
               <img
                 alt="..."
-                className="img-raised"
+                className="img-raised pathway-page__image"
                 src={require("assets/img/pathways/green-building/2.jpeg")}
               ></img>
           </Row>

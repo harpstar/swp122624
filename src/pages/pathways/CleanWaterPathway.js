@@ -15,18 +15,16 @@ const CleanWaterPathway = () => {
 
       <div className='pathway-page__images-container'>
         <Col className="ml-auto mr-auto" md="10">
-          <Row className="collections justify-content-center">
+          <Row className="collections justify-content-center pathway-page__images-row">
               <img
                 alt="..."
-                className="img-raised"
+                className="img-raised pathway-page__image"
                 src={require("assets/img/pathways/clean-water/2.jpeg")}
-                style={{height: '400px'}}
               ></img>
               <img
                 alt="..."
-                className="img-raised"
+                className="img-raised pathway-page__image"
                 src={require("assets/img/pathways/clean-water/1.jpeg")}
-                style={{height: '400px'}}
               ></img>
           </Row>
         </Col>
