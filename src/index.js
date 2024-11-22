@@ -36,6 +36,7 @@ import LoginPage from "./pages/LoginPage";
 import ExamplesNavbar from "./components/Navbars/ExamplesNavbar";
 import IndexNavbar from "./components/Navbars/IndexNavbar";
 import PathwaysPage from "./pages/PathwaysPage";
+import AquaculturePathway from "./pages/pathways/AquaculturePathway";
 import CleanWaterPathway from "./pages/pathways/CleanWaterPathway";
 import EnvironmentalEngineeringPathway from "./pages/pathways/EnvironmentalEngineeringPathway";
 import GreenBuildingPathway from "./pages/pathways/GreenBuildingPathway";
@@ -53,6 +54,7 @@ root.render(
         <Route path="/profile" element={<ProfilePage />} />
 
         {/* pathway pages */}
+        <Route path="/pathway/aquaculture" element={<AquaculturePathway />} />
         <Route path="/pathway/clean-water" element={<CleanWaterPathway />} />
         <Route path="/pathway/environmental-engineering" element={<EnvironmentalEngineeringPathway />} />
         <Route path="/pathway/green-building" element={<GreenBuildingPathway />} />

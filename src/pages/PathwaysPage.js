@@ -14,7 +14,17 @@ const PathwaysPage = () => {
       <h1 className='title' style={{textAlign:"center", marginTop: '8rem', marginBottom: '5rem'}}>Sustainable Career Pathways</h1>
 
       <div className='pathways-page__cards-container'>
-        <Card className='pathways-page__card'>
+      <Card className='pathways-page__card'>
+          <CardImg center width="80%" src={require('../assets/img/sustain-logo.png')} alt="Environmental Engineering pathway" className="pathways-page__img" />
+          <CardBody className='pathways-page__card--body'>
+            <CardTitle>
+              <h4>Aquaculture - image to be updated</h4>
+            </CardTitle>
+            <Button color="info" className="pathways-page__card--button" to="/pathway/aquaculture" tag={Link}>Learn More</Button>
+          </CardBody>
+        </Card>
+
+      <Card className='pathways-page__card'>
           <CardImg center width="80%" src={require('../assets/img/pathways/environmental-engineering/1.png')} alt="Environmental Engineering pathway" className="pathways-page__img" />
           <CardBody className='pathways-page__card--body'>
             <CardTitle>
@@ -53,7 +63,9 @@ const PathwaysPage = () => {
             <Button color="info" className="pathways-page__card--button" to="/pathway/marine-biology" tag={Link}>Learn More</Button>
           </CardBody>
         </Card>
+      </div>
 
+      <div className='pathways-page__cards-container'>
         <Card className='pathways-page__card'>
           {/*<CardImg center width="80%" src={require('../assets/img/pathways/clean-water/1.jpeg')} alt="other pathway" />*/}
           <CardBody className='pathways-page__card--body'>
