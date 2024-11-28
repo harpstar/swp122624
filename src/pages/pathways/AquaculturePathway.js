@@ -20,13 +20,13 @@ const EnvironmentalEngineeringPathway = () => {
                 alt="..."
                 className="img-raised pathway-page__image"
                 // todo: update image
-                src={require("../../assets/img/sustain-logo.png")}
+                src={require("../../assets/img/pathways/aquaculture/matnuck-boat2-062219.jpeg")}
               ></img>
               <img
                 alt="..."
                 className="img-raised pathway-page__image"
                 // todo: update image
-                src={require("../../assets/img/sustain-logo.png")}
+                src={require("../../assets/img/pathways/aquaculture/matnuck-group.jpeg")}
               ></img>
           </Row>
         </Col>

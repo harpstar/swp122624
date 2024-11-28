@@ -69,9 +69,6 @@ function LandingPageHeader() {
           <img src={require('assets/img/sustain-logo.png')} alt="logo" className="home-page__logo-container--logo" />
         </div>
       </div>
-      <div className="pathways-page__carousel-container">
-        <Carousel />
-      </div>
     </>
   );
 }

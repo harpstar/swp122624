@@ -15,22 +15,22 @@ const PathwaysPage = () => {
 
       <div className='pathways-page__cards-container'>
       <Card className='pathways-page__card'>
-          <CardImg center width="80%" src={require('../assets/img/sustain-logo.png')} alt="Environmental Engineering pathway" className="pathways-page__img" />
+          <CardImg center width="80%" src={require('../assets/img/pathways/aquaculture/aquaculture.jpg')} alt="Environmental Engineering pathway" className="pathways-page__img" />
           <CardBody className='pathways-page__card--body'>
             <CardTitle>
-              <h4>Aquaculture - image to be updated</h4>
+              <h4>Aquaculture</h4>
             </CardTitle>
             <Button color="info" className="pathways-page__card--button" to="/pathway/aquaculture" tag={Link}>Learn More</Button>
           </CardBody>
         </Card>
 
-      <Card className='pathways-page__card'>
-          <CardImg center width="80%" src={require('../assets/img/pathways/environmental-engineering/1.png')} alt="Environmental Engineering pathway" className="pathways-page__img" />
+        <Card className='pathways-page__card'>
+          <CardImg center width="80%" src={require('../assets/img/pathways/marine-biology/3.jpeg')} alt="Marine Biology pathway" className="pathways-page__img" />
           <CardBody className='pathways-page__card--body'>
             <CardTitle>
-              <h4>Environmental Engineering</h4>
+              <h4>Marine Biology</h4>
             </CardTitle>
-            <Button color="info" className="pathways-page__card--button" to="/pathway/environmental-engineering" tag={Link}>Learn More</Button>
+            <Button color="info" className="pathways-page__card--button" to="/pathway/marine-biology" tag={Link}>Learn More</Button>
           </CardBody>
         </Card>
 
@@ -55,14 +55,15 @@ const PathwaysPage = () => {
         </Card>
 
         <Card className='pathways-page__card'>
-          <CardImg center width="80%" src={require('../assets/img/pathways/marine-biology/3.jpeg')} alt="Marine Biology pathway" className="pathways-page__img" />
+          <CardImg center width="80%" src={require('../assets/img/pathways/environmental-engineering/1.png')} alt="Environmental Engineering pathway" className="pathways-page__img" />
           <CardBody className='pathways-page__card--body'>
             <CardTitle>
-              <h4>Marine Biology</h4>
+              <h4>Environmental Engineering</h4>
             </CardTitle>
-            <Button color="info" className="pathways-page__card--button" to="/pathway/marine-biology" tag={Link}>Learn More</Button>
+            <Button color="info" className="pathways-page__card--button" to="/pathway/environmental-engineering" tag={Link}>Learn More</Button>
           </CardBody>
         </Card>
+
       </div>
 
       <div className='pathways-page__cards-container'>
