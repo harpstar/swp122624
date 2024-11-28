@@ -61,10 +61,12 @@ const EnvironmentalEngineeringPathway = () => {
                 <ul>
                     <link rel="icon" type="image/png" href="%PUBLIC_URL%/sustain-logo.png" />
                     <li><a href="https://www.classcentral.com/subject/aquaculture"><b>Certificates for Aquaculture Courses,</b> Class Central</a></li>
+                    <li><a href="https://www.redwoods.edu/academics/aqua.php"><b>Certificate & Associate Degree in Aquaculture Technology,</b> College of the Redwoods</a></li>
                     <li><a href="https://www.uri.edu"><b>Aquaculture and Fisheries Science B.S.,</b> University of Rhode Island</a></li>
-                    <li><a href="https://wccc.me.edu/academics/programs/programs-study/aquaculture-technology/ "><b>Aquaculture Technology,</b> Washington County Community College
-                    <b> Associates Degree & Certificate Option</b></a></li>
-                    <li><a href="https://www.smccme.edu/academics/pathways/public-safety/aquaculture-short-term-training/"><b>Aquaculture Short Term Training,</b> Southern Main Community College</a></li>
+                    <li><a href="https://www.smc.edu/academics/academic-departments/life-sciences/aquaculture.php"><b>Aquaculture,</b> Santa Monica College</a></li>
+                    <li><a href="https://catalog.humboldt.edu/preview_program.php?catoid=12&poid=7381&returnto=1975 "><b>Fisheries Biology, Aquaculture Concentration, B.S,</b> Humboldt Community College</a></li>
+                    <li><a href="https://wccc.me.edu/academics/programs/programs-study/aquaculture-technology/ "><b>Aquaculture Technology,</b> Washington County Community College<b> Associates Degree & Certificate Option</b></a></li>                    
+                    <li><a href="https://www.smccme.edu/academics/pathways/public-safety/aquaculture-short-term-training/"><b>Aquaculture Short Term Training,</b> Southern Maine Community College</a></li>
                     <li><a href="https://www.morrisville.edu/program/aquaculture-aquatic-science-aas"><b>Aquaculture & Aquatic Science, AAS,</b> SUNY Morrisville</a></li>
                     <li><a href="https://www.btc.edu/Academics/DegreesAndCertificates/FisheriesAndAquacultureSciences/AquacultureScience-Certificate.html"><b>Aquaculture Science Certificate,</b> Bellingham Technical College</a></li>
                     <li><a href="https://www.kysu.edu/academics/college-ahnr/school-of-aas/cert-aas.php"><b>Aquaculture and Aquatic Science Certificate, </b> Kentucky State University</a></li>
@@ -79,7 +81,7 @@ const EnvironmentalEngineeringPathway = () => {
 
             <h4>Salary</h4>
             <ul>
-              <li>$30,000 - $40,000 annually (varies by region and company)</li>
+              <li>$38,000–$54,000 annually (varies by region and company)</li>
             </ul>
 
             <h4>Job Projections</h4>
@@ -90,10 +92,10 @@ const EnvironmentalEngineeringPathway = () => {
 
             <h4>Resources</h4>
             <ul>
-              <li>California Aquaculture Association</li>
-              <li>Massachusetts Aquaculture Association</li>
-              <li>National Marine Fisheries Service (NMFS)</li>
-              <li>Aquaculture Careers Portal</li>
+              <li><a href="https://caaquaculture.org/">California Aquaculture Association</a></li>
+              <li><a href="https://maaquaculture.org/">Massachusetts Aquaculture Association</a></li>
+              <li><a href="https://www.commerce.gov/bureaus-and-offices/noaa/nmfs">National Marine Fisheries Service (NMFS)</a></li>
+              <li><a href="https://pcsga.org/">Aquaculture Careers Portal</a></li>
             </ul>
 
             <i>Other Entry Level Jobs: Aquarist, Fish Farm Worker, Hatchery Technician, Water Quality Technician, Aquaculture 
@@ -136,8 +138,10 @@ const EnvironmentalEngineeringPathway = () => {
                     <link rel="icon" type="image/png" href="%PUBLIC_URL%/sustain-logo.png" />
                     <li><a href="https://www.classcentral.com/subject/aquaculture"><b>Certificates for Aquaculture Courses,</b> Class Central</a></li>
                     <li><a href="https://www.uri.edu"><b>Aquaculture and Fisheries Science B.S.,</b> University of Rhode Island</a></li>
+                    <li><a href="https://www.smc.edu/academics/academic-departments/life-sciences/aquaculture.php"><b>Aquaculture,</b> Santa Monica College</a></li>
+                    <li><a href="https://catalog.humboldt.edu/preview_program.php?catoid=12&poid=7381&returnto=1975"><b>Fisheries Biology, Aquaculture Concentration, B.S,</b> Humboldt Community College</a></li>
                     <li><a href="https://wccc.me.edu/academics/programs/programs-study/aquaculture-technology/ "><b>Aquaculture Technology,</b> Washington County Community College<b> Associates Degree & Certificate Option</b></a></li>
-                    <li><a href="https://www.smccme.edu/academics/pathways/public-safety/aquaculture-short-term-training/"><b>Aquaculture Short Term Training,</b> Southern Main Community College</a></li>
+                    <li><a href="https://www.smccme.edu/academics/pathways/public-safety/aquaculture-short-term-training/"><b>Aquaculture Short Term Training,</b> Southern Maine Community College</a></li>
                     <li><a href="https://www.morrisville.edu/program/aquaculture-aquatic-science-aas"><b>Aquaculture & Aquatic Science, AAS,</b> SUNY Morrisville</a></li>
                     <li><a href="https://www.btc.edu/Academics/DegreesAndCertificates/FisheriesAndAquacultureSciences/AquacultureScience-Certificate.html"><b>Aquaculture Science Certificate,</b> Bellingham Technical College</a></li>
                     <li><a href="https://www.kysu.edu/academics/college-ahnr/school-of-aas/cert-aas.php"><b>Aquaculture and Aquatic Science Certificate, </b> Kentucky State University</a></li>
@@ -152,7 +156,7 @@ const EnvironmentalEngineeringPathway = () => {
 
             <h4>Salary</h4>
             <ul>
-              <li>Average Salary: $30,000–$45,000 per year, depending on location and facility size</li>
+              <li>Average Salary: $36,000–$58,000 per year, depending on location and facility size</li>
               <li>Aquarists at larger aquariums or research institutions may earn higher salaries</li>
             </ul>
 
@@ -164,11 +168,12 @@ const EnvironmentalEngineeringPathway = () => {
 
             <h4>Resources</h4>
             <ul>
-              <li>California Aquaculture Association</li>
-              <li>Massachusetts Aquaculture Association</li>
-              <li>American Association of Zoos and Aquariums (AZA): Offers training, certification, and networking opportunities for aquarists</li>
-              <li>National Aquarium: Offers educational programs and internship opportunities for aspiring aquarists</li>
-              <li>Association of Marine Laboratories of the Caribbean (AMLC): Connects aquarists with marine science resources and networking opportunities</li>
+              <li><a href="https://caaquaculture.org/">California Aquaculture Association</a></li>
+              <li><a href="https://maaquaculture.org/">Massachusetts Aquaculture Association</a></li>
+              <li><a href="https://www.aza.org/">American Association of Zoos and Aquariums (AZA):</a> Offers training, certification, and networking opportunities for aquarists</li>
+              <li><a href="https://www.national-aquarium.co.uk/learning-at-the-aquarium/">National Aquarium:</a> Offers educational programs and internship opportunities for aspiring aquarists</li>
+              <li><a href="http://amlc-carib.org/">Association of Marine Laboratories of the Caribbean (AMLC):</a> Connects aquarists with marine science resources and networking opportunities</li>
+              <li><a href="https://pcsga.org/">Pacific Coast Shellfish Growers Association</a></li>
             </ul>
 
             <i>
@@ -207,6 +212,16 @@ const EnvironmentalEngineeringPathway = () => {
             <ul>
               <li>Bachelor’s degree in Aquaculture, Fisheries Science, Marine Biology, or related field</li>
               <li>Additional training or certifications in aquaculture management, water quality control, and disease management is beneficial</li>
+              <li>Degrees & Certificates</li>
+                <ul>
+                  <li><a href="https://catalog.humboldt.edu/preview_program.php?catoid=12&poid=7381&returnto=1975"><b>Fisheries Biology, Aquaculture Concentration, B.S,</b> Humboldt Community College </a></li>
+                  <li><a href="https://www.redwoods.edu/academics/aqua.php"><b>Associate Degree in Aquaculture Technology,</b> College of the Redwoods</a></li>
+                  <li><a href="https://www.uri.edu"><b>Aquaculture and Fisheries Science B.S.,</b> University of Rhode Island</a></li>
+                  <li><a href="https://www.smc.edu/academics/academic-departments/life-sciences/aquaculture.php"><b>Aquaculture,</b> Santa Monica College</a></li>
+                  <li><a href="https://wccc.me.edu/academics/programs/programs-study/aquaculture-technology/"><b>Aquaculture Technology,</b> Washington County Community College<b> Associates Degree & Certificate Option </b></a></li>
+                  <li><a href="https://www.smccme.edu/academics/pathways/public-safety/aquaculture-short-term-training/"><b>Aquaculture Technology,</b> Southern Maine Community College</a></li>
+                  <li><a href="https://www.morrisville.edu/program/aquaculture-aquatic-science-aas"><b>Aquaculture & Aquatic Science, AAS,</b> SUNY Morrisville</a></li>
+                </ul>
             </ul>
 
             <h4>Work Experience:</h4>
@@ -218,7 +233,7 @@ const EnvironmentalEngineeringPathway = () => {
 
             <h4>Salary</h4>
             <ul>
-              <li>Average Salary: $45,000–$65,000 per year, depending on experience, location, and farm size</li>
+              <li>Average Salary: $57,000–$128,000 per year, depending on experience, location, and farm size</li>
               <li>Aquaculturist managing larger or more complex aquaculture operations may earn higher salaries</li>
             </ul>
 
@@ -230,11 +245,10 @@ const EnvironmentalEngineeringPathway = () => {
 
             <h4>Resources</h4>
             <ul>
-              <li>California Aquaculture Association</li>
-              <li>Massachusetts Aquaculture Association</li>
-              <li>Aquaculture Stewardship Council (ASC): Provides guidelines and certification for sustainable aquaculture practices</li>
-              <li>The Fish Site: A resource hub for the aquaculture industry, providing articles, industry news, and job opportunities</li>
-              <li>World Aquaculture Society: Provides conferences, journals, and resources for aquaculturists</li>
+              <li><a href="https://caaquaculture.org/">California Aquaculture Association</a></li>
+              <li><a href="https://maaquaculture.org/">Massachusetts Aquaculture Association</a></li>
+              <li><a href="https://thefishsite.com/">The Fish Site:</a> A resource hub for the aquaculture industry, providing articles, industry news, and job opportunities</li>
+              <li><a href=" https://www.was.org/">World Aquaculture Society:</a> Provides conferences, journals, and resources for aquaculturists</li>
             </ul>
 
             <i>
@@ -264,6 +278,12 @@ const EnvironmentalEngineeringPathway = () => {
             <h4>Education:</h4>
             <ul>
               <li>Bachelor's degree in Aquaculture, Marine Biology, Environmental Science, or related field</li>
+              <li>Degrees & Certificates</li>
+                <ul>
+                  <li><a href="https://catalog.humboldt.edu/preview_program.php?catoid=12&poid=7381&returnto=1975"><b>Fisheries Biology, Aquaculture Concentration, B.S,</b> Humboldt Community College </a></li>
+                  <li><a href="https://www.uri.edu"><b>Aquaculture and Fisheries Science B.S.,</b> University of Rhode Island </a></li>
+                  <li><a href="https://www.smc.edu/academics/academic-departments/life-sciences/aquaculture.php "><b>Aquaculture, </b> Santa Monica College</a></li>
+                </ul>
             </ul>
 
             <h4>Work Experience:</h4>
@@ -274,7 +294,7 @@ const EnvironmentalEngineeringPathway = () => {
 
             <h4>Salary</h4>
             <ul>
-              <li>$50,000–$70,000 annually (depends on location and company)</li>
+              <li>$50,000–$116,000 annually (depends on location and company)</li>
             </ul>
 
             <h4>Job Projections</h4>
@@ -285,11 +305,14 @@ const EnvironmentalEngineeringPathway = () => {
 
             <h4>Resources</h4>
             <ul>
-              <li>California Aquaculture Association</li>
-              <li>Massachusetts Aquaculture Association</li>
-              <li>Aquaculture America (Conference)</li>
-              <li>World Aquaculture Society (WAS)</li>
-              <li>The Aquaculture Network</li>
+              <li><a href="https://caaquaculture.org/">California Aquaculture Association</a></li>
+              <li><a href="https://maaquaculture.org/">Massachusetts Aquaculture Association</a></li>
+              <li><a href="https://www.was.org/meeting">Aquaculture – The Triennial</a></li>
+              <li><a href="https://www.fisheries.noaa.gov/topic/aquaculture">National Oceanic and Atmospheric Administration (NOAA) Fisheries</a></li>
+              <li><a href="https://www.was.org/">World Aquaculture Society (WAS)</a></li>
+              <li><a href="https://www.aquanet.com/">The Aquaculture Network</a></li>
+              <li><a href="https://pcsga.org/">Pacific Coast Shellfish Growers Association</a></li>
+              
             </ul>
 
             <i>
@@ -360,11 +383,11 @@ const EnvironmentalEngineeringPathway = () => {
 
             <h4>Resources</h4>
             <ul>
-              <li>California Aquaculture Association</li>
-              <li>Massachusetts Aquaculture Association</li>
-              <li>Global Aquaculture Alliance (GAA): Focuses on promoting environmentally responsible aquaculture and provides certifications for sustainable practices</li>
-              <li>The Sustainable Fisheries UW: A research group focused on sustainable fisheries and aquaculture practices</li>
-              <li>International Society for Sustainable Aquaculture (ISSA): An organization that provides resources and networking for professionals focused on sustainable aquaculture practices</li>
+              <li><a href="https://caaquaculture.org/">California Aquaculture Association</a></li>
+              <li><a href="https://maaquaculture.org/">Massachusetts Aquaculture Association</a></li>
+              <li><a href="https://www.globalseafood.org/blog/tag/global-aquaculture-alliance/">Global Aquaculture Alliance (GAA):</a> Focuses on promoting environmentally responsible aquaculture and provides certifications for sustainable practices</li>
+              <li><a href="https://sustainablefisheries-uw.org/">The Sustainable Fisheries UW:</a> A research group focused on sustainable fisheries and aquaculture practices</li>
+              <li><a href="https://iss-association.org/">International Seafood Sustainability Association</a></li>
             </ul>
             <i>Other Advanced Jobs: Aquaculture Operations Director, Aquaculture Research Director, Aquaculture Executive, Aquaculture Sustainability and Environmental Strategy Expert, Aquaculture Policy Advisor or Consultant, Fishery Manager or Director, Aquaculture Technology or Engineering Director, Aquaculture Educator or Professor, International Aquaculture Consultant, Aquaculture Entrepreneur/Founder, 
             </i>
@@ -408,12 +431,11 @@ const EnvironmentalEngineeringPathway = () => {
 
             <h4>Resources</h4>
             <ul>
-              <li>Aquaculture Innovation and Research Centers</li>
-              <li>NARDP</li>
-              <li>American Fisheries Society – Aquaculture Section</li>
-              <li>European Aquaculture Society (EAS)</li>
-              <li>International Journal of Aquaculture and Fisheries Research</li>
-              <li>International Food Policy Research Institute (IFPRI)</li>
+              <li><a href="https://fisheries.org/category/aquaculture/">American Fisheries Society – Aquaculture Section</a></li>
+              <li><a href="https://www.aquaeas.eu/">European Aquaculture Society (EAS)</a></li>
+              <li><a href="https://eajournals.org/ijfar/">International Journal of Aquaculture and Fisheries Research</a></li>
+              <li><a href="https://www.ifpri.org/">International Food Policy Research Institute (IFPRI)</a></li>
+              <li><a href="https://www.wildtypefoods.com/careers">Wildtype Foods</a></li>
             </ul>
 
             <i>Other Advanced Jobs: Aquaculture Operations Director, Aquaculture Research 
