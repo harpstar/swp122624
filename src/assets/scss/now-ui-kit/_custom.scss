@@ -137,6 +137,7 @@
 
   &__card {
     padding: 1rem;
+    font-size: larger;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,6 +155,7 @@
     &--button {
       max-width: 200px;
       width: 200px;
+      font-size: larger;
     }
   }
 

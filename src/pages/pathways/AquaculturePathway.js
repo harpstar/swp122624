@@ -43,7 +43,6 @@ const EnvironmentalEngineeringPathway = () => {
           <h4 style={{cursor: 'pointer'}} onClick={() => setIsBuildingMaintenanceWorkerOpen(prev => !prev)}>Aquaculture Technician: Related Story: Perry Raso</h4>
 
           <Collapse isOpen={isBuildingMaintenanceWorkerOpen}>
-            <p>to be updated: summary</p>
 
             <h4>Tasks/Responsibilities:</h4>
             <ul>
@@ -112,8 +111,6 @@ const EnvironmentalEngineeringPathway = () => {
             Aquarist</h4>
 
           <Collapse isOpen={isBuildingMaintenanceTechnicianOpen}>
-            <p>to be updated: summary</p>
-
             <h4>Tasks/Responsibilities:</h4>
             <ul>
               <li>Caring for marine and freshwater species in aquariums or research facilities
@@ -196,7 +193,6 @@ const EnvironmentalEngineeringPathway = () => {
           <h4 onClick={() => setIsBuildingOperatorOpen(prev => !prev)}>Aquaculturist: Related Story: Perry Raso</h4>
 
           <Collapse isOpen={isBuildingOperatorOpen}>
-            <p>to be updated: summary</p>
 
             <h4>Tasks/Responsibilities:</h4>
             <ul>
@@ -264,7 +260,6 @@ const EnvironmentalEngineeringPathway = () => {
           <h4 onClick={() => setIsBuildingOperatorOpen(prev => !prev)}>Mid Level: Aquaculture Farm Manager</h4>
 
           <Collapse isOpen={isBuildingOperatorOpen}>
-            <p>to be updated: summary</p>
 
             <h4>Tasks/Responsibilities:</h4>
             <ul>
@@ -336,7 +331,6 @@ const EnvironmentalEngineeringPathway = () => {
           <h4 onClick={() => setIsFacilitiesManagerOpen(prev => !prev)}>Sustainable Aquaculturist: Related Story: Perry Raso</h4>
 
           <Collapse isOpen={isFacilitiesManagerOpen}>
-            <p>To be updated: summary</p>
 
             <h4>Tasks/Responsibilities:</h4>
             <ul>
@@ -396,7 +390,6 @@ const EnvironmentalEngineeringPathway = () => {
           {/* 2 */}
           <h4 onClick={() => setIsFacilitiesManagerOpen(prev => !prev)}>Advanced Level: Aquaculture Research Scientist</h4>
           <Collapse isOpen={isFacilitiesManagerOpen}>
-            <p>To be updated: summary</p>
 
             <h4>Tasks/Responsibilities:</h4>
             <ul>
