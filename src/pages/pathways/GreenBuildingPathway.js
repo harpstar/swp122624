@@ -69,7 +69,7 @@ const GreenBuildingPathway = () => {
             <ul>
               <li>High School Diploma or Equivalent</li>
               <li>Vocational Training in carpentry/building</li>
-              <li><a href="https://catalog.bristolcc.edu/engineering/green-building-technology-certificate">Green
+              <li><a href="https://catalog.bristolcc.edu/sites/default/files/pdf/degree/green-building-technology-certificate.pdf?1664570064">Green
                 Building Technology Certificate</a></li>
               <li><a href="https://www.usgbccc.org/page-18157">US Green Building Council Certifications</a></li>
             </ul>

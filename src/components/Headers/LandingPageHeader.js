@@ -55,7 +55,7 @@ function LandingPageHeader() {
           <h3>
             <strong>SustainWDN™</strong> is an online ecosystem that builds bridges between young people, educators, and blue and green companies to build a 21st century blue/green workforce development pipeline.
           </h3>
-          <Button
+          <Button style={{ fontSize: '1.5rem' }}
             // className="btn-neutral"
             color="info"
             to="/pathways"
