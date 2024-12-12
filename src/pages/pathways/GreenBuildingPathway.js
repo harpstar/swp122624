@@ -108,7 +108,7 @@ const GreenBuildingPathway = () => {
             <ul>
               <li>High School Diploma or Equivalent</li>
               <li>Construction skills – OTJ training offered</li>
-              <li><a href="https://catalog.bristolcc.edu/engineering/green-building-technology-certificate">Green
+              <li><a href="https://catalog.bristolcc.edu/sites/default/files/pdf/degree/green-building-technology-certificate.pdf?1664570064">Green
                 Building Technology Certificate</a></li>
               <li><a href="https://www.usgbccc.org/page-18157">US Green Building Council Certifications</a></li>
             </ul>
@@ -156,7 +156,7 @@ const GreenBuildingPathway = () => {
             <ul>
               <li>High School Diploma or Equivalent</li>
               <li>Two-year or four-year degree in building automation systems or related field</li>
-              <li><a href="https://catalog.bristolcc.edu/engineering/green-building-technology-certificate">Green
+              <li><a href="https://catalog.bristolcc.edu/sites/default/files/pdf/degree/green-building-technology-certificate.pdf?1664570064">Green
                 Building Technology Certificate</a></li>
               <li><a href="https://www.usgbccc.org/page-18157">US Green Building Council Certifications</a></li>
             </ul>
@@ -215,7 +215,7 @@ const GreenBuildingPathway = () => {
             <ul>
               <li>High School Diploma or Equivalent</li>
               <li>Two-year or Four-year degree in engineering, business management or facilities management</li>
-              <li><a href="https://catalog.bristolcc.edu/engineering/green-building-technology-certificate">Green
+              <li><a href="https://catalog.bristolcc.edu/sites/default/files/pdf/degree/green-building-technology-certificate.pdf?1664570064">Green
                 Building Technology Certificate</a></li>
               <li><a href="https://www.usgbccc.org/page-18157">US Green Building Council Certifications</a></li>
             </ul>
