@@ -30,7 +30,7 @@ function LandingPageHeader() {
           <div
             className="page-header-image"
             style={{
-              backgroundImage: "url(" + require("assets/img/home-page/home1.jpg") + ")",
+              backgroundImage: "url(" + require("assets/img/Durfee-Group-Shot-2022-03.jpg") + ")",
               width: '100%'
             }}
             filter-color="black"
