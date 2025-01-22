@@ -58,3 +58,8 @@ body {
 .card-body p {
   font-size: 1.3rem; /* Larger font size for titles and paragraphs */
 }
+
+.text-primary {
+  --bs-primary: #0065bd;
+  color: var(--bs-primary) !important;
+}
