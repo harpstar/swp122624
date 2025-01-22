@@ -1,3 +1,60 @@
 body {
-    font-family: 'Baskervville', serif;
+  font-family: "Baskervville", serif;
+}
+
+.arrow-left,
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.arrow-left {
+  border-width: 10px 15px 10px 0;
+  border-color: transparent orange transparent transparent;
+  margin-right: -2px;
+}
+
+.arrow-right {
+  border-width: 10px 0 10px 15px;
+  border-color: transparent transparent transparent orange;
+  margin-left: -2px;
+}
+
+.bigger-card {
+  width: 100%; /* Full width of the container */
+  padding: 3rem; /* Increased padding for a larger box */
+  min-height: 350px; /* Increased minimum height for the card */
+  font-size: 1.5rem; /* Increased font size for text */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for emphasis */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  transition: transform 0.3s ease-in-out; /* Optional: Hover effect */
+  background-color: #fff; /* Ensure background is white */
+}
+
+.bigger-card h2,
+.bigger-card p,
+.bigger-card ul {
+  font-size: 1.5rem; /* Increase the font size of all text inside the box */
+}
+
+.bigger-card ul {
+  padding-left: 20px; /* Indentation for the list items */
+}
+
+.bigger-card li {
+  margin-bottom: 0.5rem; /* Space between list items */
+}
+
+.bigger-card:hover {
+  transform: scale(1.05); /* Optional: Slight enlargement on hover */
+}
+
+.card-body {
+  padding: 2rem; /* Increased padding inside the card body */
+}
+
+.card-body h2,
+.card-body p {
+  font-size: 1.3rem; /* Larger font size for titles and paragraphs */
 }
