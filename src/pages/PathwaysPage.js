@@ -1,82 +1,98 @@
 import React from 'react';
 import ExamplesNavbar from "../components/Navbars/ExamplesNavbar";
-import Carousel from '../components/Carousel';
-import {Card, CardBody, CardFooter, CardHeader, CardImg, CardTitle, Button} from "reactstrap";
-import {Link} from 'react-router-dom';
+import {Card, CardBody, Button, Row, Col, Container} from "reactstrap";
 const PathwaysPage = () => {
   return (
     <>
       <ExamplesNavbar coloredNav />
-      {/*<div className="pathways-page__carousel-container">*/}
-      {/*  <Carousel />*/}
-      {/*</div>*/}
+      <Container className="py-5">
+                    <Row className="mb-4">
+                        <Col>
+                            <div className="position-relative">
+                                {/* Rainbow Arc */}
+                                <img
+                                    src={require("assets/img/sustain-logo.png")} 
+                                    alt="" 
+                                    className="img-fluid w-100" 
+                                ></img>
 
-      <h1 className='title' style={{textAlign:"center", marginTop: '8rem', marginBottom: '5rem'}}>Sustainable Career Pathways</h1>
+                                {/* Stars */}
+                                <div className="position-absolute top-50 start-50 translate-middle d-flex gap-3">
+                                    <i className="text-warning fs-2">★</i>
+                                    <i className="text-warning fs-2">★</i>
+                                    <i className="text-warning fs-2">★</i>
+                                </div>
+                            </div>
+                        </Col>
+                    </Row>
 
-      <div className='pathways-page__cards-container'>
-      <Card className='pathways-page__card'>
-          <CardImg center width="80%" src={require('../assets/img/pathways/aquaculture/aquaculture.jpg')} alt="Environmental Engineering pathway" className="pathways-page__img" />
-          <CardBody className='pathways-page__card--body'>
-            <CardTitle>
-              <h4>Aquaculture</h4>
-            </CardTitle>
-            <Button color="info" className="pathways-page__card--button" to="/pathway/aquaculture" tag={Link}>Learn More</Button>
-          </CardBody>
-        </Card>
+                    {/* Main Title */}
+                    <Row className="text-center mb-4">
+                        <Col>
+                            <h1 className="text-primary fw-bold">SustainWDN™</h1>
+                            <p className="text-secondary fs-4">Sustainable Workforce Development Network</p>
+                        </Col>
+                    </Row>
 
-        <Card className='pathways-page__card'>
-          <CardImg center width="80%" src={require('../assets/img/pathways/marine-biology/3.jpeg')} alt="Marine Biology pathway" className="pathways-page__img" />
-          <CardBody className='pathways-page__card--body'>
-            <CardTitle>
-              <h4>Marine Biology</h4>
-            </CardTitle>
-            <Button color="info" className="pathways-page__card--button" to="/pathway/marine-biology" tag={Link}>Learn More</Button>
-          </CardBody>
-        </Card>
+                    {/* Pathways Section */}
+                    <Row className="align-items-center">
+                        {/* Green Economy */}
+                        <Col md={4}>
+                            <h2 className="text-success italic-text mb-3">Green Economy Pathways</h2>
+                            <Card className="border-success">
+                                <CardBody>
+                                    <ul className="text-success list-unstyled fs-5">
+                                        <li>Environmental Engineering</li>
+                                        <li>Green Building</li>
+                                        <li>Renewable Agriculture</li>
+                                        <li>Renewable Energy</li>
+                                        <li>Solar</li>
+                                        <li>Other Pathways</li>
+                                    </ul>
+                                </CardBody>
+                            </Card>
+                        </Col>
 
-        <Card className='pathways-page__card'>
-          <CardImg center src={require('../assets/img/pathways/clean-water/1.jpeg')} alt="clean water pathway" className="pathways-page__img" />
-          <CardBody className='pathways-page__card--body'>
-            <CardTitle>
-              <h4>Clean Water</h4>
-            </CardTitle>
-            <Button color="info" className="pathways-page__card--button" to="/pathway/clean-water" tag={Link}>Learn More</Button>
-          </CardBody>
-        </Card>
 
-        <Card className='pathways-page__card'>
-          <CardImg center width="80%" src={require('../assets/img/pathways/green-building/1.jpeg')} alt="Green Building pathway" className="pathways-page__img" />
-          <CardBody className='pathways-page__card--body'>
-            <CardTitle>
-              <h4>Green Building</h4>
-            </CardTitle>
-            <Button color="info" className="pathways-page__card--button" to="/pathway/green-building" tag={Link}>Learn More</Button>
-          </CardBody>
-        </Card>
+          {/* Center Explore Section with Arrows */}
+          <Col md={4} className="text-center d-flex align-items-center">
+              {/* Left Arrow */}
+              <div className="d-flex align-items-center flex-grow-1" style={{ marginRight: '1rem' }}>
+                  <div className="arrow-left"></div>
+                  <div className="bg-warning flex-grow-1" style={{ height: '4px' }}></div>
+              </div>
 
-        <Card className='pathways-page__card'>
-          <CardImg center width="80%" src={require('../assets/img/pathways/environmental-engineering/1.png')} alt="Environmental Engineering pathway" className="pathways-page__img" />
-          <CardBody className='pathways-page__card--body'>
-            <CardTitle>
-              <h4>Environmental Engineering</h4>
-            </CardTitle>
-            <Button color="info" className="pathways-page__card--button" to="/pathway/environmental-engineering" tag={Link}>Learn More</Button>
-          </CardBody>
-        </Card>
+              {/* Button */}
+              <Button color="warning" className="rounded-pill px-4 py-2 fs-4">
+                  Explore Your Pathway
+              </Button>
 
-      </div>
+              {/* Right Arrow */}
+              <div className="d-flex align-items-center flex-grow-1" style={{ marginLeft: '1rem' }}>
+                  <div className="bg-warning flex-grow-1" style={{ height: '4px' }}></div>
+                  <div className="arrow-right"></div>
+              </div>
+          </Col>
 
-      <div className='pathways-page__cards-container'>
-        <Card className='pathways-page__card'>
-          {/*<CardImg center width="80%" src={require('../assets/img/pathways/clean-water/1.jpeg')} alt="other pathway" />*/}
-          <CardBody className='pathways-page__card--body'>
-            <CardTitle>
-              <h4>Other Pathways</h4>
-            </CardTitle>
-            <Button color="info" className="pathways-page__card--button" href="https://sustainwdn.com/wp-content/uploads/2023/05/sustainable-career-pathways-green-entrepeneurs.pdf">Learn More</Button>
-          </CardBody>
-        </Card>
-      </div>
+
+                        {/* Blue Economy */}
+                        <Col md={4}>
+                            <h2 className="text-primary italic-text mb-3">Blue Economy Pathways</h2>
+                            <Card className="border-primary">
+                                <CardBody>
+                                    <ul className="text-primary list-unstyled fs-5">
+                                        <li>Aquaculture</li>
+                                        <li>Blue Finance</li>
+                                        <li>Blue Tech</li>
+                                        <li>Clean Water Management</li>
+                                        <li>Marine Biology</li>
+                                        <li>Offshore Wind</li>
+                                    </ul>
+                                </CardBody>
+                            </Card>
+                        </Col>
+                    </Row>
+                </Container>
     </>
   );
 }

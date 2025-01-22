@@ -3,7 +3,6 @@ import React from "react";
 // reactstrap components
 import { Button } from "reactstrap";
 import { Link } from "react-router-dom";
-import Carousel from "../Carousel";
 
 // core components
 
@@ -30,22 +29,12 @@ function LandingPageHeader() {
           <div
             className="page-header-image"
             style={{
-              backgroundImage: "url(" + require("assets/img/Durfee-Group-Shot-2022-03.jpg") + ")",
+              backgroundImage: "url(" + require("assets/img/DigitalGroup.jpg") + ")",
               width: '100%'
             }}
             filter-color="black"
             ref={pageHeader}
           />
-          {/* <div
-            className="page-header-image"
-            style={{
-              backgroundImage: "url(" + require("assets/img/home-page/home2.jpg") + ")",
-              width: '50%',
-              right: 0,
-            }}
-            filter-color="black"
-            ref={pageHeader}
-          /> */}
         </div>
         <div className="content-center home-page__header-text-container">
           <h1 className="title">Sustainable Career Pathways</h1>
