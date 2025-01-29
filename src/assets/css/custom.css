@@ -63,3 +63,71 @@ body {
   --bs-primary: #0065bd;
   color: var(--bs-primary) !important;
 }
+
+.video-container {
+  position: relative;
+  width: 200px; /* Adjust size as needed */
+  height: auto;
+  margin: auto; /* Center horizontally */
+  text-align: center;
+}
+
+.animated-logo-video {
+  width: 100%; /* Ensure the video fits the container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Fit the content inside the container */
+  display: block; /* Avoid inline layout issues */
+  border: none; /* Ensure no border is applied */
+  background: none; /* Remove background if any */
+}
+
+.button-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.medium-text {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Remove borders between list items */
+.text-success .list-group-item,
+.text-primary .list-group-item {
+  border: none !important; /* Remove all borders */
+  margin-bottom: 0; /* Ensure there's no gap between items */
+}
+
+/* Optionally, add a margin between the items if needed */
+.text-success .list-group-item + .list-group-item,
+.text-primary .list-group-item + .list-group-item {
+  margin-top: -1px; /* Adjust if necessary */
+}
+
+/* Disable background and text color change for the link */
+.text-success .list-group-item a,
+.text-primary .list-group-item a {
+  text-decoration: none; /* Remove underline if needed */
+  color: inherit; /* Keep the text color from parent */
+  background-color: transparent !important; /* Prevent background color change */
+}
+
+/* Disable background and text color change for hover/focus/active/visited */
+.text-success .list-group-item a:hover,
+.text-primary .list-group-item a:hover,
+.text-success .list-group-item a:focus,
+.text-primary .list-group-item a:focus,
+.text-success .list-group-item a:active,
+.text-primary .list-group-item a:active,
+.text-success .list-group-item a:visited,
+.text-primary .list-group-item a:visited {
+  color: inherit !important;
+  background-color: transparent !important; /* Prevent background color change */
+}
+
+/* Optional: Apply styles to ListGroupItem action state */
+.text-success .list-group-item,
+.text-primary .list-group-item {
+  background-color: transparent !important;
+  color: inherit !important;
+}
