@@ -66,19 +66,20 @@ body {
 
 .video-container {
   position: relative;
-  width: 200px; /* Adjust size as needed */
-  height: auto;
+  width: 50vw; /* Adjust size as needed */
+  height: 55vh;
   margin: auto; /* Center horizontally */
   text-align: center;
 }
 
 .animated-logo-video {
-  width: 100%; /* Ensure the video fits the container */
-  height: auto; /* Maintain aspect ratio */
+  width: 100vw; /* Ensure the video fits the container */
+  height: 60vh; /* Maintain aspect ratio */
   object-fit: contain; /* Fit the content inside the container */
   display: block; /* Avoid inline layout issues */
   border: none; /* Ensure no border is applied */
   background: none; /* Remove background if any */
+  margin-top: 0;
 }
 
 .button-text {
@@ -101,7 +102,7 @@ body {
 /* Optionally, add a margin between the items if needed */
 .text-success .list-group-item + .list-group-item,
 .text-primary .list-group-item + .list-group-item {
-  margin-top: -1px; /* Adjust if necessary */
+  margin-top: -5px; /* Adjust if necessary */
 }
 
 /* Disable background and text color change for the link */
@@ -130,4 +131,8 @@ body {
 .text-primary .list-group-item {
   background-color: transparent !important;
   color: inherit !important;
+}
+
+.custom-text {
+  font-size: 2rem; /* Adjust size as needed */
 }

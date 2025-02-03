@@ -1,5 +1,4 @@
 import React, { useRef, useEffect, useState } from "react";
-import ExamplesNavbar from "../components/Navbars/ExamplesNavbar";
 import {
   Card,
   CardBody,
@@ -10,7 +9,6 @@ import {
   ListGroup,
   ListGroupItem,
 } from "reactstrap";
-import { Link } from "react-router-dom";
 
 const PathwaysPage = () => {
   const videoRef = useRef(null); // Reference to the video element
@@ -43,15 +41,14 @@ const PathwaysPage = () => {
 
   return (
     <>
-      <ExamplesNavbar coloredNav />
-      <Container className="py-5">
-        <Row className="mb-4">
+      <Container fluid className="py-0">
+        <Row className="mb-0">
           <Col>
             <div className="position-relative">
               {/* Rainbow Arc Animation */}
-              <Container className="text-center">
+              <Container fluid className="text-center">
                 <Row>
-                  <div className="video-container img-fluid w-100">
+                  <div className="video-container d-flex justify-content-center img-fluid w-100">
                     <video
                       ref={videoRef} // Attach reference to video
                       src={require("assets/img/Animation.mp4")}
@@ -68,17 +65,20 @@ const PathwaysPage = () => {
           </Col>
         </Row>
         {/* Pathways Section */}
-        <Row className="align-items-center">
+        <Row className="align-items-center justify-content-center">
           {/* Green Economy */}
-          <Col md={4}>
-            <h2 className="text-success mb-3" style={{ fontSize: "1.8rem" }}>
+          <Col md={3}>
+            <h2
+              className="text-success mb-4"
+              style={{ fontSize: "3rem", fontWeight: "bold" }}
+            >
               Green Economy Pathways
             </h2>
             <Card className="border-success">
               <CardBody>
                 <ListGroup className="text-success" flush>
                   <ListGroupItem
-                    className="text-success button-text"
+                    className="text-success button-text custom-text"
                     action
                     href="/pathway/environmental-engineering"
                     tag="a"
@@ -87,7 +87,7 @@ const PathwaysPage = () => {
                   </ListGroupItem>
 
                   <ListGroupItem
-                    className="text-success button-text"
+                    className="text-success button-text custom-text"
                     action
                     href="/pathway/green-building"
                     tag="a"
@@ -96,7 +96,7 @@ const PathwaysPage = () => {
                   </ListGroupItem>
 
                   <ListGroupItem
-                    className="text-success button-text"
+                    className="text-success button-text custom-text"
                     action
                     // href="/pathway/"
                     tag="a"
@@ -105,7 +105,7 @@ const PathwaysPage = () => {
                   </ListGroupItem>
 
                   <ListGroupItem
-                    className="text-success button-text"
+                    className="text-success button-text custom-text"
                     action
                     // href="/pathway/"
                     tag="a"
@@ -113,7 +113,7 @@ const PathwaysPage = () => {
                     Renewable Energy
                   </ListGroupItem>
                   <ListGroupItem
-                    className="text-success button-text"
+                    className="text-success button-text custom-text"
                     action
                     // href="/pathway/"
                     tag="a"
@@ -121,7 +121,7 @@ const PathwaysPage = () => {
                     Solar
                   </ListGroupItem>
                   <ListGroupItem
-                    className="text-success button-text"
+                    className="text-success button-text custom-text"
                     action
                     href="https://sustainwdn.com/wp-content/uploads/2023/05/sustainable-career-pathways-green-entrepeneurs.pdf"
                     tag="a"
@@ -134,7 +134,7 @@ const PathwaysPage = () => {
           </Col>
 
           {/* Center Explore Section with Arrows */}
-          <Col md={4} className="text-center d-flex align-items-center">
+          <Col md={5} className="text-center d-flex align-items-center">
             {/* Left Arrow */}
             <div
               className="d-flex align-items-center flex-grow-1"
@@ -150,7 +150,7 @@ const PathwaysPage = () => {
             {/* Button */}
             <Button
               color="warning"
-              className="rounded-pill px-4 py-2 fs-4 button-text"
+              className="rounded-pill px-4 py-2 fs-4 button-text custom-text"
               // to="path-to-student-portal"
             >
               Explore Your Pathway
@@ -170,15 +170,18 @@ const PathwaysPage = () => {
           </Col>
 
           {/* Blue Economy */}
-          <Col md={4}>
-            <h2 className="text-primary mb-3" style={{ fontSize: "1.8rem" }}>
+          <Col md={3}>
+            <h2
+              className="text-primary mb-4"
+              style={{ fontSize: "3rem", fontWeight: "bold" }}
+            >
               Blue Economy Pathways
             </h2>
             <Card className="border-primary">
               <CardBody>
                 <ListGroup className="text-primary" flush>
                   <ListGroupItem
-                    className="text-primary button-text"
+                    className="text-primary button-text custom-text"
                     action
                     href="/pathway/aquaculture"
                     tag="a"
@@ -187,7 +190,7 @@ const PathwaysPage = () => {
                   </ListGroupItem>
 
                   <ListGroupItem
-                    className="text-primary button-text"
+                    className="text-primary button-text custom-text"
                     action
                     // href="/pathway/"
                     tag="a"
@@ -196,7 +199,7 @@ const PathwaysPage = () => {
                   </ListGroupItem>
 
                   <ListGroupItem
-                    className="text-primary button-text"
+                    className="text-primary button-text custom-text"
                     action
                     // href="/pathway/"
                     tag="a"
@@ -205,7 +208,7 @@ const PathwaysPage = () => {
                   </ListGroupItem>
 
                   <ListGroupItem
-                    className="text-primary button-text"
+                    className="text-primary button-text custom-text"
                     action
                     href="/pathway/clean-water"
                     tag="a"
@@ -213,7 +216,7 @@ const PathwaysPage = () => {
                     Clean Water Management
                   </ListGroupItem>
                   <ListGroupItem
-                    className="text-primary button-text"
+                    className="text-primary button-text custom-text"
                     action
                     href="/pathway/marine-biology"
                     tag="a"
@@ -221,7 +224,7 @@ const PathwaysPage = () => {
                     Marine Biology
                   </ListGroupItem>
                   <ListGroupItem
-                    className="text-primary button-text"
+                    className="text-primary button-text custom-text"
                     action
                     // href="/pathway/"
                     tag="a"

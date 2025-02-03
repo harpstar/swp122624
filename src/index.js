@@ -31,43 +31,48 @@ import NucleoIcons from "views/NucleoIcons.js";
 import SecondLandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "./pages/ProfilePage.js";
 
-import LandingPage from 'pages/LandingPage';
+import LandingPage from "pages/LandingPage";
 import LoginPage from "./pages/LoginPage";
-import ExamplesNavbar from "./components/Navbars/ExamplesNavbar";
-import IndexNavbar from "./components/Navbars/IndexNavbar";
 import PathwaysPage from "./pages/PathwaysPage";
 import AquaculturePathway from "./pages/pathways/AquaculturePathway";
 import CleanWaterPathway from "./pages/pathways/CleanWaterPathway";
 import EnvironmentalEngineeringPathway from "./pages/pathways/EnvironmentalEngineeringPathway";
 import GreenBuildingPathway from "./pages/pathways/GreenBuildingPathway";
 import MarineBiologyPathway from "./pages/pathways/MarineBiologyPathway";
-import './assets/css/custom.css';
+import "./assets/css/custom.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/pathways" element={<PathwaysPage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/profile" element={<ProfilePage />} />
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/pathways" element={<PathwaysPage />} />
+      <Route path="/login" element={<LoginPage />} />
+      <Route path="/profile" element={<ProfilePage />} />
 
-        {/* pathway pages */}
-        <Route path="/pathway/aquaculture" element={<AquaculturePathway />} />
-        <Route path="/pathway/clean-water" element={<CleanWaterPathway />} />
-        <Route path="/pathway/environmental-engineering" element={<EnvironmentalEngineeringPathway />} />
-        <Route path="/pathway/green-building" element={<GreenBuildingPathway />} />
-        <Route path="/pathway/marine-biology" element={<MarineBiologyPathway />} />
+      {/* pathway pages */}
+      <Route path="/pathway/aquaculture" element={<AquaculturePathway />} />
+      <Route path="/pathway/clean-water" element={<CleanWaterPathway />} />
+      <Route
+        path="/pathway/environmental-engineering"
+        element={<EnvironmentalEngineeringPathway />}
+      />
+      <Route
+        path="/pathway/green-building"
+        element={<GreenBuildingPathway />}
+      />
+      <Route
+        path="/pathway/marine-biology"
+        element={<MarineBiologyPathway />}
+      />
 
+      <Route path="/index2" element={<Index />} />
+      <Route path="/nucleo-icons" element={<NucleoIcons />} />
+      <Route path="/landing-page" element={<SecondLandingPage />} />
+      <Route path="/login-page" element={<LoginPage />} />
 
-
-        <Route path="/index2" element={<Index />} />
-        <Route path="/nucleo-icons" element={<NucleoIcons />} />
-        <Route path="/landing-page" element={<SecondLandingPage />} />
-        <Route path="/login-page" element={<LoginPage />} />
-
-        <Route path="*" element={<Navigate to="/index" replace />} />
-      </Routes>
-    </BrowserRouter>
+      <Route path="*" element={<Navigate to="/index" replace />} />
+    </Routes>
+  </BrowserRouter>
 );
