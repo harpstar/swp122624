@@ -10,7 +10,6 @@ import {
   Label,
   FormGroup,
   Input,
-  InputGroupAddon,
   InputGroupText,
   InputGroup,
   Container,
@@ -155,11 +154,9 @@ function BasicElements() {
               </Col>
               <Col lg="3" sm="6">
                 <InputGroup className={leftFocus ? "input-group-focus" : ""}>
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                      <i className="fa fa-user-circle"></i>
-                    </InputGroupText>
-                  </InputGroupAddon>
+                  <InputGroupText>
+                    <i className="fa fa-user-circle"></i>
+                  </InputGroupText>
                   <Input
                     placeholder="Left Font Awesome Icon"
                     type="text"
@@ -176,11 +173,9 @@ function BasicElements() {
                     onFocus={() => setRightFocus(true)}
                     onBlur={() => setRightFocus(false)}
                   ></Input>
-                  <InputGroupAddon addonType="append">
-                    <InputGroupText>
-                      <i className="now-ui-icons users_single-02"></i>
-                    </InputGroupText>
-                  </InputGroupAddon>
+                  <InputGroupText>
+                    <i className="now-ui-icons users_single-02"></i>
+                  </InputGroupText>
                 </InputGroup>
               </Col>
             </Row>

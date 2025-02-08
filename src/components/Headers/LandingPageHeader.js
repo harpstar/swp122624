@@ -37,7 +37,7 @@ function LandingPageHeader() {
             pipeline.
           </h3>
           <Button
-            style={{ fontSize: "1.5rem" }}
+            style={{ Size: "1.5rem", color: "white" }}
             // className="btn-neutral"
             color="info"
             to="/pathways"

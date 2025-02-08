@@ -10,11 +10,10 @@ import {
   CardTitle,
   Form,
   Input,
-  InputGroupAddon,
   InputGroupText,
   InputGroup,
   Container,
-  Row
+  Row,
 } from "reactstrap";
 
 // core components
@@ -31,7 +30,7 @@ function SignUp() {
           backgroundImage: "url(" + require("assets/img/bg11.jpg") + ")",
           backgroundSize: "cover",
           backgroundPosition: "top center",
-          minHeight: "700px"
+          minHeight: "700px",
         }}
       >
         <Container>
@@ -76,11 +75,9 @@ function SignUp() {
                       "no-border" + (firstFocus ? " input-group-focus" : "")
                     }
                   >
-                    <InputGroupAddon addonType="prepend">
-                      <InputGroupText>
-                        <i className="now-ui-icons users_circle-08"></i>
-                      </InputGroupText>
-                    </InputGroupAddon>
+                    <InputGroupText>
+                      <i className="now-ui-icons users_circle-08"></i>
+                    </InputGroupText>
                     <Input
                       placeholder="First Name..."
                       type="text"
@@ -93,11 +90,9 @@ function SignUp() {
                       "no-border" + (lastFocus ? " input-group-focus" : "")
                     }
                   >
-                    <InputGroupAddon addonType="prepend">
-                      <InputGroupText>
-                        <i className="now-ui-icons text_caps-small"></i>
-                      </InputGroupText>
-                    </InputGroupAddon>
+                    <InputGroupText>
+                      <i className="now-ui-icons text_caps-small"></i>
+                    </InputGroupText>
                     <Input
                       placeholder="Last Name..."
                       type="text"
@@ -110,11 +105,9 @@ function SignUp() {
                       "no-border" + (emailFocus ? " input-group-focus" : "")
                     }
                   >
-                    <InputGroupAddon addonType="prepend">
-                      <InputGroupText>
-                        <i className="now-ui-icons ui-1_email-85"></i>
-                      </InputGroupText>
-                    </InputGroupAddon>
+                    <InputGroupText>
+                      <i className="now-ui-icons ui-1_email-85"></i>
+                    </InputGroupText>
                     <Input
                       placeholder="Email..."
                       type="text"

@@ -9,11 +9,10 @@ import {
   CardFooter,
   Form,
   Input,
-  InputGroupAddon,
   InputGroupText,
   InputGroup,
   Container,
-  Col
+  Col,
 } from "reactstrap";
 
 // core components
@@ -41,7 +40,7 @@ function LoginPage() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/login.jpg") + ")"
+            backgroundImage: "url(" + require("assets/img/login.jpg") + ")",
           }}
         ></div>
         <div className="content">
@@ -64,11 +63,9 @@ function LoginPage() {
                         (firstFocus ? " input-group-focus" : "")
                       }
                     >
-                      <InputGroupAddon addonType="prepend">
-                        <InputGroupText>
-                          <i className="now-ui-icons users_circle-08"></i>
-                        </InputGroupText>
-                      </InputGroupAddon>
+                      <InputGroupText>
+                        <i className="now-ui-icons users_circle-08"></i>
+                      </InputGroupText>
                       <Input
                         placeholder="First Name..."
                         type="text"
@@ -82,11 +79,9 @@ function LoginPage() {
                         (lastFocus ? " input-group-focus" : "")
                       }
                     >
-                      <InputGroupAddon addonType="prepend">
-                        <InputGroupText>
-                          <i className="now-ui-icons text_caps-small"></i>
-                        </InputGroupText>
-                      </InputGroupAddon>
+                      <InputGroupText>
+                        <i className="now-ui-icons text_caps-small"></i>
+                      </InputGroupText>
                       <Input
                         placeholder="Last Name..."
                         type="text"
