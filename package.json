@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "ajv": "^8.17.1",
+    "bootstrap": "^5.3.3",
     "eslint-visitor-keys": "^3.4.3",
     "moment": "2.29.4",
     "nouislider": "15.4.0",
@@ -13,7 +14,7 @@
     "react-dom": ">=16.8.0",
     "react-router-dom": "6.11.1",
     "react-scripts": "^3.0.1",
-    "reactstrap": "8.10.0",
+    "reactstrap": "^9.2.3",
     "sass": "1.62.1"
   },
   "scripts": {

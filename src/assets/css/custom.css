@@ -23,7 +23,7 @@ body {
 
 .bigger-card {
   width: 100%; /* Full width of the container */
-  padding: 3rem; /* Increased padding for a larger box */
+  padding: 2rem; /* Increased padding for a larger box */
   min-height: 350px; /* Increased minimum height for the card */
   font-size: 1.5rem; /* Increased font size for text */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for emphasis */
@@ -35,28 +35,19 @@ body {
 .bigger-card h2,
 .bigger-card p,
 .bigger-card ul {
-  font-size: 1.5rem; /* Increase the font size of all text inside the box */
+  font-size: 1.2rem; /* Increase the font size of all text inside the box */
 }
 
 .bigger-card ul {
-  padding-left: 20px; /* Indentation for the list items */
+  padding-left: 15px; /* Indentation for the list items */
 }
 
 .bigger-card li {
-  margin-bottom: 0.5rem; /* Space between list items */
-}
-
-.bigger-card:hover {
-  transform: scale(1.05); /* Optional: Slight enlargement on hover */
+  margin-bottom: 0.2rem; /* Space between list items */
 }
 
 .card-body {
-  padding: 2rem; /* Increased padding inside the card body */
-}
-
-.card-body h2,
-.card-body p {
-  font-size: 1.3rem; /* Larger font size for titles and paragraphs */
+  padding: 0.5rem; /* Increased padding inside the card body */
 }
 
 .text-primary {
@@ -67,14 +58,14 @@ body {
 .video-container {
   position: relative;
   width: 50vw; /* Adjust size as needed */
-  height: 55vh;
+  height: 45vh;
   margin: auto; /* Center horizontally */
   text-align: center;
 }
 
 .animated-logo-video {
   width: 100vw; /* Ensure the video fits the container */
-  height: 60vh; /* Maintain aspect ratio */
+  height: 50vh; /* Maintain aspect ratio */
   object-fit: contain; /* Fit the content inside the container */
   display: block; /* Avoid inline layout issues */
   border: none; /* Ensure no border is applied */
@@ -83,12 +74,11 @@ body {
 }
 
 .button-text {
-  font-size: 20px;
   font-weight: bold;
 }
 
 .medium-text {
-  font-size: 22px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -102,7 +92,7 @@ body {
 /* Optionally, add a margin between the items if needed */
 .text-success .list-group-item + .list-group-item,
 .text-primary .list-group-item + .list-group-item {
-  margin-top: -5px; /* Adjust if necessary */
+  margin-top: -1px; /* Adjust if necessary */
 }
 
 /* Disable background and text color change for the link */
@@ -133,6 +123,141 @@ body {
   color: inherit !important;
 }
 
-.custom-text {
-  font-size: 2rem; /* Adjust size as needed */
+.card-text {
+  font-size: 1.4rem; /* Adjust size as needed */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; /* Reduce spacing between images */
+  margin-bottom: 80px; /* Reduce bottom margin */
+  margin-top: 60px; /* Reduce top margin */
+}
+
+.image-box img {
+  width: 100%;
+  max-width: 400px; /* Decrease max size of images */
+  height: auto;
+  border-radius: 10px;
+}
+
+.job-level {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.entry-level {
+  background-color: #33a1ff; /* Light blue */
+}
+
+.mid-level {
+  background-color: #ffa500; /* Orange */
+}
+
+.advanced-level {
+  background-color: #008000; /* Green */
+}
+
+/* Accordion with curved edges and black border */
+.job-button {
+  background-color: #f0f0f0; /* Light grey background */
+  color: black; /* Black text */
+  border: 1px solid black; /* Black border */
+  border-radius: 10px; /* Curved edges */
+}
+
+.job-button:hover {
+  background-color: #e0e0e0; /* Slightly darker grey on hover */
+}
+
+/* Text boxes with curved edges */
+.job-description {
+  border: 1px solid black; /* Black border */
+  padding: 15px;
+  border-radius: 10px; /* Curved edges */
+  margin-top: 10px;
+}
+
+.image-box {
+  overflow: hidden; /* Prevents overflow */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the box while maintaining aspect ratio */
+}
+
+.career-container {
+  min-height: 100vh; /* Ensures consistent page height */
+  padding-bottom: 50px;
+}
+
+.accordion-body {
+  padding: 20px; /* Add more breathing room inside */
+}
+
+.accordion-header {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 12px;
+}
+
+.accordion-header span {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+
+.accordion-header i {
+  font-size: 18px;
+  color: #6c757d; /* Muted color for icons */
+}
+
+.career-list-group {
+  background-color: #f8f9fa; /* Light grey background */
+  border: 1px solid #d6d6d6; /* Light grey border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  padding: 8px; /* Reduce padding inside the list */
+  margin-bottom: 20px; /* space between ListGroup and the next CardText */
+}
+
+.career-list-group-item {
+  border: none; /* Remove default borders */
+  font-size: 14px; /* Make text slightly larger */
+  padding: 4px 8px; /* Reduce vertical padding */
+  margin-bottom: 0px; /* Reduce space between list items */
+  line-height: 1.1; /* Reduce spacing between lines */
+  background-color: transparent; /* Ensure individual items don't override the group background */
+}
+
+.career-card-text {
+  font-weight: 600; /* Make headings bolder */
+  font-size: 16px; /* Slightly larger headings */
+  margin-bottom: 10px; /* Reduce space below headings */
+}
+
+.no-underline {
+  text-decoration: none; /* Removes underline */
+  color: #007bff; /* Keep default link color */
+  cursor: pointer; /* Ensures it looks clickable */
+}
+
+.no-underline:hover {
+  text-decoration: underline; /* Show underline on hover */
+}
+
+.link-clickable {
+  pointer-events: auto; /* Ensures link is clickable */
+  user-select: text; /* Allows text selection */
 }

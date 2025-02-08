@@ -4,12 +4,11 @@ import React from "react";
 import {
   Button,
   Input,
-  InputGroupAddon,
   InputGroupText,
   InputGroup,
   Container,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 // core components
@@ -58,7 +57,7 @@ function LandingPage() {
                     className="image-container image-left"
                     style={{
                       backgroundImage:
-                        "url(" + require("assets/img/login.jpg") + ")"
+                        "url(" + require("assets/img/login.jpg") + ")",
                     }}
                   >
                     <p className="blockquote blockquote-info">
@@ -73,7 +72,7 @@ function LandingPage() {
                     className="image-container"
                     style={{
                       backgroundImage:
-                        "url(" + require("assets/img/bg3.jpg") + ")"
+                        "url(" + require("assets/img/bg3.jpg") + ")",
                     }}
                   ></div>
                 </Col>
@@ -82,7 +81,7 @@ function LandingPage() {
                     className="image-container image-right"
                     style={{
                       backgroundImage:
-                        "url(" + require("assets/img/bg1.jpg") + ")"
+                        "url(" + require("assets/img/bg1.jpg") + ")",
                     }}
                   ></div>
                   <h3>
@@ -267,11 +266,9 @@ function LandingPage() {
                     "input-lg" + (firstFocus ? " input-group-focus" : "")
                   }
                 >
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                      <i className="now-ui-icons users_circle-08"></i>
-                    </InputGroupText>
-                  </InputGroupAddon>
+                  <InputGroupText>
+                    <i className="now-ui-icons users_circle-08"></i>
+                  </InputGroupText>
                   <Input
                     placeholder="First Name..."
                     type="text"
@@ -284,11 +281,9 @@ function LandingPage() {
                     "input-lg" + (lastFocus ? " input-group-focus" : "")
                   }
                 >
-                  <InputGroupAddon addonType="prepend">
-                    <InputGroupText>
-                      <i className="now-ui-icons ui-1_email-85"></i>
-                    </InputGroupText>
-                  </InputGroupAddon>
+                  <InputGroupText>
+                    <i className="now-ui-icons ui-1_email-85"></i>
+                  </InputGroupText>
                   <Input
                     placeholder="Email..."
                     type="text"
