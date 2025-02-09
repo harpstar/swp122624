@@ -5,7 +5,6 @@ import {
   AccordionHeader,
   AccordionItem,
   CardText,
-  CardTitle,
   ListGroup,
   ListGroupItem,
 } from "reactstrap";
@@ -31,7 +30,7 @@ function Accordions({
     <Accordion flush open={open} toggle={toggle}>
       <AccordionItem>
         <AccordionHeader targetId={id}>
-          <span>
+          <span style={{ fontSize: "1.3rem" }}>
             <i className="fas fa-cog"></i> {job}
           </span>
         </AccordionHeader>
@@ -106,7 +105,7 @@ function Accordions({
               alt="Icon"
               style={{ width: 24, height: 24, marginRight: 8 }}
             />
-            <strong>Word Experience:</strong>
+            <strong>Work Experience:</strong>
           </CardText>
           <ListGroup className="career-list-group">
             {workExperience.map((task, index) => (
