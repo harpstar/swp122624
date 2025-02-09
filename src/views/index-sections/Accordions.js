@@ -5,6 +5,7 @@ import {
   AccordionHeader,
   AccordionItem,
   CardText,
+  CardTitle,
   ListGroup,
   ListGroupItem,
 } from "reactstrap";
@@ -36,6 +37,11 @@ function Accordions({
         </AccordionHeader>
         <AccordionBody accordionId={id}>
           <CardText className="career-card-text">
+            <img
+              src={require("../../assets/img/pathways-page/tasks-responsibilities-icon.png")}
+              alt="Icon"
+              style={{ width: 24, height: 24, marginRight: 8 }}
+            />
             <strong>Tasks + Responsibilities:</strong>
           </CardText>
           <ListGroup className="career-list-group">
@@ -50,6 +56,11 @@ function Accordions({
           </ListGroup>
 
           <CardText className="career-card-text">
+            <img
+              src={require("../../assets/img/pathways-page/education-icon.png")}
+              alt="Icon"
+              style={{ width: 24, height: 24, marginRight: 8 }}
+            />
             <strong>Education:</strong>
           </CardText>
           <ListGroup className="career-list-group">
@@ -90,6 +101,11 @@ function Accordions({
           )}
 
           <CardText className="career-card-text">
+            <img
+              src={require("../../assets/img/pathways-page/work-experience-icon.png")}
+              alt="Icon"
+              style={{ width: 24, height: 24, marginRight: 8 }}
+            />
             <strong>Word Experience:</strong>
           </CardText>
           <ListGroup className="career-list-group">
@@ -116,6 +132,11 @@ function Accordions({
             ))}
           </ListGroup>
           <CardText className="career-card-text">
+            <img
+              src={require("../../assets/img/pathways-page/job-projections-icon.png")}
+              alt="Icon"
+              style={{ width: 24, height: 24, marginRight: 8 }}
+            />
             <strong>Job Projections:</strong>
           </CardText>
           <ListGroup className="career-list-group">
@@ -129,6 +150,11 @@ function Accordions({
             ))}
           </ListGroup>
           <CardText className="career-card-text">
+            <img
+              src={require("../../assets/img/pathways-page/resources-icon.png")}
+              alt="Icon"
+              style={{ width: 24, height: 24, marginRight: 8 }}
+            />
             <strong>Resources:</strong>
           </CardText>
           <ListGroup className="career-list-group">
