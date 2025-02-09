@@ -261,3 +261,8 @@ body {
   pointer-events: auto; /* Ensures link is clickable */
   user-select: text; /* Allows text selection */
 }
+
+.career-pathway-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

@@ -377,7 +377,7 @@ const AquaculturePathway = () => {
             <Col md={4}>
               <Card className="mb-4">
                 <CardBody>
-                  <CardTitle className="job-level entry-level">
+                  <CardTitle className="job-level entry-level career-pathway-card-title">
                     Entry-Level Jobs
                   </CardTitle>
                   <Accordions {...aquaTechnician} />
@@ -390,7 +390,7 @@ const AquaculturePathway = () => {
             <Col md={4}>
               <Card className="mb-4">
                 <CardBody>
-                  <CardTitle className="job-level mid-level">
+                  <CardTitle className="job-level mid-level career-pathway-card-title">
                     Mid-level Jobs
                   </CardTitle>
                   <Accordions {...aquaculturist} />
@@ -403,7 +403,7 @@ const AquaculturePathway = () => {
             <Col md={4}>
               <Card className="mb-4">
                 <CardBody>
-                  <CardTitle className="job-level advanced-level">
+                  <CardTitle className="job-level advanced-level career-pathway-card-title">
                     Advanced Jobs
                   </CardTitle>
                   <Accordions {...aquacultureResearchScientist} />
