@@ -223,7 +223,7 @@ const aquaculturist = {
   ],
   salary: [
     "Average Salary: $57,000–$128,000 per year, depending on experience, location, and farm size",
-    "Aquaculturist managing larger or more complex aquaculture operations may earn higher salaries",
+    "Aquaculturists managing larger or more complex aquaculture operations may earn higher salaries",
   ],
   jobProjections: [
     "Job Growth: Employment of fish and game wardens (which includes aquaculture workers) is projected to grow by 7% from 2021 to 2031, which is average growth for all occupations. However, the aquaculture industry itself, especially with the increasing demand for farm-raised seafood, is expected to see stronger growth",
@@ -250,7 +250,7 @@ const aquaculturist = {
 const aquacultureFarmManager = {
   job: "Aquaculture Farm Manager",
   tasksResponsibilities: [
-    "pervise daily operations of an aquaculture farm or hatchery",
+    "Supervise daily operations of an aquaculture farm or hatchery",
     "Oversee breeding, feeding, harvesting, and disease management",
     "Manage staff, including technicians and seasonal workers",
     "Ensure compliance with environmental regulations and industry standards",

@@ -172,10 +172,6 @@ body {
   border-radius: 10px; /* Curved edges */
 }
 
-.job-button:hover {
-  background-color: #e0e0e0; /* Slightly darker grey on hover */
-}
-
 /* Text boxes with curved edges */
 .job-description {
   border: 1px solid black; /* Black border */
@@ -221,6 +217,26 @@ body {
 .accordion-header i {
   font-size: 18px;
   color: #6c757d; /* Muted color for icons */
+}
+
+.accordion-item {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-button {
+  box-shadow: none !important;
+  outline: none !important;
+  background-color: transparent !important; /* Ensures no background color changes */
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.accordion-collapse {
+  box-shadow: none !important;
 }
 
 .career-list-group {

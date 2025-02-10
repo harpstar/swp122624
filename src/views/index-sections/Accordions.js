@@ -31,7 +31,7 @@ function Accordions({
       <AccordionItem>
         <AccordionHeader targetId={id}>
           <span style={{ fontSize: "1.3rem" }}>
-            <i className="fas fa-cog"></i> {job}
+            <i className="fas fa-cog"></i> <b>{job}</b>
           </span>
         </AccordionHeader>
         <AccordionBody accordionId={id}>
@@ -183,7 +183,7 @@ function Accordions({
                 key={index}
                 className="bullet-item career-list-group-item"
               >
-                • {task}
+                {task}
               </ListGroupItem>
             ))}
           </ListGroup>
