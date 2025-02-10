@@ -151,7 +151,8 @@ const PathwaysPage = () => {
             <Button
               color="warning"
               className="rounded-pill px-4 py-2 fs-4 button-text card-text"
-              href="https://sustainwdn.com/user/demo/"
+              href="https://sustainwdn.com/login"
+              target="_blank"
             >
               Explore Your Pathway
             </Button>
