@@ -2,9 +2,15 @@ import React from "react";
 import { Container, Row, Col, Card, CardBody, CardTitle } from "reactstrap";
 
 import Accordions from "views/index-sections/Accordions";
+import humanIcon1 from "../../assets/img/pathways-page/human-icon-1.png";
+import humanIcon2 from "../../assets/img/pathways-page/human-icon-2.png";
+import humanIcon3 from "../../assets/img/pathways-page/human-icon-3.png";
+import humanIcon4 from "../../assets/img/pathways-page/human-icon-4.png";
+import humanIcon5 from "../../assets/img/pathways-page/human-icon-5.png";
 
 const aquaTechnician = {
   job: "Aquaculture Technician",
+  jobIcon: humanIcon1,
   tasksResponsibilities: [
     "Monitor and maintain the health of aquatic species in hatcheries or farms",
     "Feed fish and monitor water quality parameters (e.g., pH, temperature, salinity",
@@ -84,6 +90,7 @@ const aquaTechnician = {
 
 const entryLevelAquarist = {
   job: "Entry-Level Aquarist",
+  jobIcon: humanIcon2,
   tasksResponsibilities: [
     "Caring for marine and freshwater species in aquariums or research facilities",
     "Maintaining aquarium habitats, including water quality, temperature, and filtration systems",
@@ -172,6 +179,7 @@ const entryLevelAquarist = {
 
 const aquaculturist = {
   job: "Aquaculturist",
+  jobIcon: humanIcon3,
   tasksResponsibilities: [
     "Overseeing the breeding, growth, and harvesting of aquatic species such as fish, shellfish, or seaweed",
     "Managing water quality, feeding schedules, and other aspects of aquaculture systems to ensure optimal growth",
@@ -249,6 +257,7 @@ const aquaculturist = {
 
 const aquacultureFarmManager = {
   job: "Aquaculture Farm Manager",
+  jobIcon: humanIcon4,
   tasksResponsibilities: [
     "Supervise daily operations of an aquaculture farm or hatchery",
     "Oversee breeding, feeding, harvesting, and disease management",
@@ -303,6 +312,7 @@ const aquacultureFarmManager = {
 
 const aquacultureResearchScientist = {
   job: "Aquaculture Research Scientist",
+  jobIcon: humanIcon5,
   tasksResponsibilities: [
     "Conduct research on fish health, breeding, and nutrition",
     "Develop new aquaculture techniques and technologies to increase efficiency and sustainability",

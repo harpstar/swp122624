@@ -11,6 +11,7 @@ import {
 
 function Accordions({
   id,
+  jobIcon,
   job,
   tasksResponsibilities,
   education,
@@ -31,7 +32,17 @@ function Accordions({
       <AccordionItem>
         <AccordionHeader targetId={id}>
           <span style={{ fontSize: "1.3rem" }}>
-            <i className="fas fa-cog"></i> <b>{job}</b>
+            <img
+              src={jobIcon}
+              alt="Icon"
+              style={{
+                maxWidth: "100%",
+                height: "auto", // Keeps the aspect ratio
+                width: "50px", // Set an initial size but allow scaling
+                marginRight: "3px",
+              }}
+            />{" "}
+            <b>{job}</b>
           </span>
         </AccordionHeader>
         <AccordionBody accordionId={id}>
@@ -76,6 +87,11 @@ function Accordions({
           {certificatesDegrees.length > 0 && (
             <>
               <CardText className="career-card-text">
+                <img
+                  src={require("../../assets/img/pathways-page/certificates-icon.png")}
+                  alt="Icon"
+                  style={{ width: 24, height: 24, marginRight: 8 }}
+                />
                 <strong>Certificates & Degrees:</strong>
               </CardText>
               <ListGroup className="career-list-group">
@@ -118,6 +134,11 @@ function Accordions({
             ))}
           </ListGroup>
           <CardText className="career-card-text">
+            <img
+              src={require("../../assets/img/pathways-page/salaries-icon.png")}
+              alt="Icon"
+              style={{ width: 24, height: 24, marginRight: 8 }}
+            />
             <strong>Salary:</strong>
           </CardText>
           <ListGroup className="career-list-group">
@@ -175,6 +196,11 @@ function Accordions({
             ))}
           </ListGroup>
           <CardText className="career-card-text">
+            <img
+              src={require("../../assets/img/pathways-page/other-related-jobs-icon.png")}
+              alt="Icon"
+              style={{ width: 24, height: 24, marginRight: 8 }}
+            />
             <strong>Other Related Jobs:</strong>
           </CardText>
           <ListGroup className="career-list-group">
